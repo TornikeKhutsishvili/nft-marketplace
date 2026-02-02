@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+:root {
+    /* colors */
+    --primary: #A259FF;
+    --light: #FFFFFF;
+    --semi-light: #858584;
+    --dark: #3B3B3B;
+    --semi-dark: #3B3B3B;
+
+    /* fonts */
+    --first-level-heading-size: 67px;
+    --second-level-heading-size: 51px;
+    --third-level-heading-size: 38px;
+}
+
+/* utility classes */
+.container {
+    width: 90%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.relative {
+    position: relative;
+}
+.d-block {
+    display: block;
+}
+.d-inline {
+    display: inline;
+}
+.d-inline-block {
+    display: inline-block;
+}
+/* flex */
+.d-flex {
+    display: flex;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-center {
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
+}
+.flex-column {
+    flex-direction: column;
+}
+.align-self-end {
+    align-self: flex-end;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+
+
+
+
+body {
+    background-color: var(--dark);
+}
+section {
+    padding-block: 80px;
+}
+
+
+header {
+    padding: 20px 50px;
+    color: var(--light);
+    & .logo {
+        & a {
+            gap: 12px;
+        }
+    }
+    & nav {
+        & ul {
+            gap: 10px;
+            & li {
+
+                &:last-child {
+                    & a {
+                        background-color: var(--primary);
+                        padding: 20px 30px;
+                        border-radius: 20px;
+                    }
+                }
+                & a {
+                    padding: 12px 20px;
+                }
+            }
+        }
+    }
+}
+
+section.welcome {
+    color: var(--light);
+
+    & .welcome-content {
+        max-width: 510px;
+        & h1 {
+            font-size: var(--first-level-heading-size);
+            color: var(--light);
+            margin-bottom: 20px;
+        }
+        & p {
+            margin-bottom: 30px;
+        }
+        &  button {
+            background-color: var(--primary);
+            
+            padding: 20px 50px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+        }
+
+        & .statistic {
+
+        }
+    }
+
+    & .welcome-image {
+
+    }
+}
