@@ -30,6 +30,7 @@ img {
     --semi-light: #858584;
     --dark: #2B2B2B;
     --semi-dark: #3B3B3B;
+    --label-text: #858584;
 
     /* fonts */
     --first-level-heading-size: 67px;
@@ -94,7 +95,12 @@ h1 {
 section {
     padding-block: 80px;
     font-family: 'work-sans';
+    color: var(--light);
+    & .section-header {
+        margin-bottom: 60px;
+    }
     & h2 {
+        font-size: var(--third-level-heading-size);
     }
     & p {
     }
@@ -191,6 +197,207 @@ section.welcome {
 
                     }
                 }
+            }
+        }
+    }
+}
+
+section.trending-colletions {
+    & .section-header {
+        & h2 {
+            margin-bottom: 10px;
+        }
+    }
+    & .collections-wrapper {
+
+
+        & .collection-card {
+            & .card-images {
+                & > img {
+                    margin-bottom: 15px;
+                }
+                & .card-thumbnails {
+                    gap: 15px;
+                    & a {
+                        font-family: 'space-mono';
+                        font-size: var(--fifth-level-heading-size);
+                        border-radius: 20px;
+                        padding: 32px 16px;
+                        background-color: var(--primary);
+                    }
+                }
+            }
+            & .card-info {
+                margin-top: 15px;
+                & h3 {
+
+                }
+                & .creator {
+                    gap: 12px;
+                    margin-top: 10px;
+                    & strong {
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+section.top-creators {
+    & .section-header {
+        & h2 {
+            margin-bottom: 10px;
+        }
+        & a {
+            gap: 12px;
+            padding: 20px 50px;
+            border-radius: 20px;
+            border: 2px solid var(--primary);
+            & svg {
+                & path {
+                    fill: var(--primary);
+                }
+            }
+        }
+    }
+    & .top-creators-wrapper {
+        gap: 30px;
+
+        & .creator-card {
+            position: relative;
+            background-color: var(--semi-dark);
+            max-width: 240px;
+            padding: 20px;
+            border-radius: 20px;
+            gap: 20px;
+            & > img {
+
+            }
+            & .card-info {
+                & h3 {
+                    margin-bottom: 5px;
+                    font-size: var(--fifth-level-heading-size);
+                }
+                & .earnings {
+                    gap: 10px;
+                    & .total-sales {
+                        text-transform: capitalize;
+                        color: var(--label-text);
+                    }
+                    & .creator-earnings {
+                        font-family: 'space-mono';
+                    }
+                }
+            }
+            & .rank-badge {
+                position: absolute;
+                top: 20px;
+                left: 20px;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                background-color: var(--dark);
+                color: var(--label-text);
+  
+            }
+        }
+    }
+
+}
+
+section.browse-categories {
+
+
+
+    & .categories-wrapper {
+        gap: 30px;
+
+        & li {
+
+            &:nth-child(1) {
+                & .category-header {
+                    background-image: url(../img/categories/category-art-cover.png);
+                }
+            }
+            &:nth-child(2) {
+                & .category-header {
+                    background-image: url(../img/categories/category-collectibles-cover.png);
+                }
+            }
+            &:nth-child(3) {
+                & .category-header {
+                    background-image: url(../img/categories/category-music-cover.png);
+                }
+            }
+            &:nth-child(4) {
+                & .category-header {
+                    background-image: url(../img/categories/category-photography-cover.png);
+                }
+            }
+
+            &:nth-child(5) {
+                & .category-header {
+                    background-image: url(../img/categories/category-art-cover.png);
+                }
+            }
+            &:nth-child(6) {
+                & .category-header {
+                    background-image: url(../img/categories/category-collectibles-cover.png);
+                }
+            }
+            &:nth-child(7) {
+                & .category-header {
+                    background-image: url(../img/categories/category-music-cover.png);
+                }
+            }
+            &:nth-child(8) {
+                & .category-header {
+                    background-image: url(../img/categories/category-photography-cover.png);
+                }
+            }
+
+            & a {
+                display: inline-block;
+                width: 240px;
+                
+                &:hover {
+                    & .layer {
+                        
+                        & img {
+                            transform: scale(1.5);
+                        }
+                    }
+                }
+                & .category-header {
+                    width: 240px;
+                    height: 240px;
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    
+                    & .layer {
+                        width: 100%;
+                        height: 100%;
+                        backdrop-filter: blur(15px);
+                        border-radius: 20px 20px 0 0;
+                        & img {
+                            transition-duration: .4s;
+                        }
+                    }
+
+                }
+
+                & .category-footer {
+                    padding: 20px 30px;
+                    background-color: var(--semi-dark);
+                    border-radius: 0 0 20px 20px;
+                    & h4 {
+                        font-size: var(--fifth-level-heading-size);
+                    }
+                }
+
             }
         }
     }
