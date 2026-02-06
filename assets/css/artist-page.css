@@ -1,0 +1,237 @@
+/**************** Start ****************/
+
+#artist-body {
+  background-color: var(--semi-dark);
+}
+
+/*** Main Content ***/
+section.profile {
+  padding: 0px;
+  font-family: "work-sans";
+  background-color: var(--dark);
+
+  & .cover-wrapper {
+    position: relative;
+    height: 420px;
+
+    & .profile-cover {
+      background:
+        linear-gradient(
+          to bottom,
+          rgba(151, 71, 255, 0) 0%,
+          rgba(151, 71, 255, 1) 1000%
+        ),
+        url("/assets/img/artist-page/artist-profile-cover.png") center / cover
+          no-repeat;
+
+      width: 100%;
+      height: 370px;
+    }
+
+    & img {
+      position: absolute;
+      bottom: 0px;
+      left: 230px;
+
+      width: 120px;
+      width: 120px;
+    }
+  }
+
+  & .container {
+    & .artist-info {
+      padding: 40px 0px;
+
+      & .artist-info-left {
+        gap: 30px;
+
+        & h2 {
+          font-size: var(--second-level-heading-size);
+          color: var(--light);
+          line-height: 110%;
+          font-weight: 600;
+        }
+
+        & .stats {
+          gap: 20px;
+
+          & h4 {
+            font-size: var(--fourth-level-heading-size);
+            color: var(--light);
+            font-weight: 700;
+            line-height: 140%;
+            font-family: "space-mono";
+          }
+
+          & p {
+            font-size: var(--fifth-level-heading-size);
+            color: var(--light);
+            line-height: 160%;
+          }
+        }
+
+        & .bio {
+          & h5 {
+            font-size: var(--fifth-level-heading-size);
+            color: var(--label-text);
+            line-height: 160%;
+            font-weight: 700;
+            font-family: "space-mono";
+          }
+
+          & p {
+            font-size: var(--fifth-level-heading-size);
+            line-height: 160%;
+            color: var(--light);
+          }
+        }
+
+        & .links {
+          & h5 {
+            font-size: var(--fifth-level-heading-size);
+            color: var(--label-text);
+            line-height: 160%;
+            font-weight: 700;
+            font-family: "space-mono";
+          }
+
+          & .links-icons {
+            gap: 10px;
+
+            & img {
+              width: 32px;
+              height: 32px;
+              cursor: pointer;
+              transition: all 0.4s ease;
+            }
+
+            & img:hover {
+              transform: scale(0.9);
+            }
+          }
+        }
+      }
+
+      & .artist-info-right {
+        gap: 20px;
+
+        & button {
+          border-radius: 20px;
+          gap: 12px;
+          color: var(--light);
+          border: 3px solid var(--primary);
+          font-weight: 600;
+          line-height: 140%;
+          height: max-content;
+          cursor: pointer;
+          transition: all 0.4s ease;
+        }
+
+        & button:hover {
+          transform: scale(0.95);
+        }
+
+        & .copy {
+          padding: 20px 20.5px;
+          background-color: var(--primary);
+        }
+
+        & .follow {
+          padding: 20px 30px;
+          background-color: transparent;
+        }
+      }
+    }
+
+    & .artist-tabs {
+      border-top: 1px solid var(--semi-dark);
+      margin-top: 10px;
+
+      & .tab {
+        gap: 16px;
+
+        & .text {
+          font-weight: 600;
+          font-size: var(--fifth-level-heading-size);
+          line-height: 140%;
+        }
+
+        & .badge {
+          color: var(--light);
+          padding: 5px 10px;
+          border-radius: 20px;
+          background-color: var(--label-text);
+        }
+      }
+
+      & .created {
+        padding: 19px 99px;
+        border-bottom: 2px solid var(--label-text);
+      }
+
+      & .owned {
+        padding: 19px 109px;
+      }
+
+      & .collection {
+        padding: 19px 97px;
+      }
+    }
+  }
+}
+
+section.artist-cards {
+  & .artist-cards-wrapper {
+    gap: 30px;
+
+    & .artist-card {
+      font-family: "space-mono";
+      background-color: var(--dark);
+      max-width: 330px;
+      padding: 0px 30px 20px 30px;
+      border-radius: 20px;
+      gap: 20px;
+
+      & > img {
+        max-height: 296px;
+        max-width: 330px;
+      }
+
+      & .card-info {
+        width: 100%;
+
+        & h3 {
+          margin-bottom: 5px;
+          font-size: var(--fifth-level-heading-size);
+          font-family: "work-sans";
+        }
+
+        & .artist-card-small-icon {
+          gap: 12px;
+          margin-bottom: 25px;
+        }
+
+        & .earnings-wrapper {
+          width: 100%;
+
+          & .earnings {
+            gap: 10px;
+
+            & .total-sales {
+              text-transform: capitalize;
+              color: var(--label-text);
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*** End Main Content ***/
+
+footer {
+  border-top: 2px solid var(--dark);
+}
+
+/**************** End ****************/

@@ -1,403 +1,1044 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NFT Marketplace</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
     <header>
-        <div class="d-flex align-center justify-between">
-            <div class="logo">
-                <a href="index.html" class="d-flex align-center">
-                    <img src="assets/img/logo.svg" alt="site logo">
-                    <span>NFT Marketplace</span>
-                </a>
-            </div>
-            <nav>
-                <ul class="d-flex align-center">
-                    <li>
-                        <a href="">Marketplace</a>
-                    </li>
-                    <li>
-                        <a href="">Rankings</a>
-                    </li>
-                    <li>
-                        <a href="">Connect a wallet</a>
-                    </li>
-                    <li>
-                        <a href="" class="d-flex align-center">
-                            <img src="assets/img/user.svg" alt="user icon">
-                            <span>Sign Up</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+      <div class="d-flex align-center justify-between">
+        <div class="logo">
+          <a href="index.html" class="d-flex align-center">
+            <img src="assets/img/logo.svg" alt="site logo" />
+            <span>NFT Marketplace</span>
+          </a>
         </div>
+        <nav>
+          <ul class="d-flex align-center">
+            <li>
+              <a href="./marketplace.html">Marketplace</a>
+            </li>
+            <li>
+              <a href="./ranking.html">Rankings</a>
+            </li>
+            <li>
+              <a href="./connect-wallet.html">Connect a wallet</a>
+            </li>
+            <li>
+              <a href="./sign-up.html" class="d-flex align-center">
+                <img src="assets/img/user.svg" alt="user icon" />
+                <span>Sign Up</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <main>
-        <section class="welcome">
-            <div class="container">
-                <div class="d-flex justify-between align-center">
-                    <div class="welcome-content">
-                        <h1>Discover &nbsp; digital art & Collect NFTs</h1>
-                        <p>NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.</p>
-                        <button class="d-flex align-center">
-                            <img src="assets/img/rocket-launch-icon.svg" alt="rocket launch icon">
-                            <span>Get Started</span>
-                        </button>
-                        <div class="statistic d-flex align-center">
-                            <div>
-                                <div class="stat-number">240k+</div>
-                                <div class="stat-text">Total Sale</div>
-                            </div>
-                            <div>
-                                <div class="stat-number">100k+</div>
-                                <div class="stat-text">Auctions</div>
-                            </div>
-                            <div>
-                                <div class="stat-number">240k+</div>
-                                <div class="stat-text">Artists</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="welcome-image">
-                        <div class="most-popular-nft">
-                            <img src="assets/img/space-walking-nft.png" alt="space walking nft image">
-                            <div class="nft-info">
-                                <h3>Space Walking</h3>
-                                <div class="creator d-flex align-center">
-                                    <img src="assets/img/animakid-avatar.png" alt="creator avatar, animakid">
-                                    <strong>Animakid</strong>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="trending-colletions">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Trending Collections</h2>
-                    <p>Checkout our weekly updated trending collection.</p>
-                </div>
-                <div class="collections-wrapper d-flex justify-between align-center">
-                    <article class="collection-card">
-                        <div class="card-images">
-                            <img src="assets/img/collections/dsgn-animals-cover.png" alt="dsgn animals collection cover image">
-                            <div class="card-thumbnails d-flex">
-                                <img src="assets/img/collections/dsgn-animals-thumbnail-1.png" alt="dsgn animals collection thumbnail 1">
-                                <img src="assets/img/collections/dsgn-animals-thumbnail-2.png" alt="dsgn animals collection thumbnail 2">
-                                <a href="#">1025+</a>
-                            </div>
-                        </div>
-                        <div class="card-info">
-                            <h3>DSGN Animals</h3>
-                            <div class="creator d-flex align-center">
-                                <img src="assets/img/collections/creator-mrfox-avatar.png" alt="dsgn animals collection creator avatar">
-                                <strong>Animakid</strong>
-                            </div>
-                        </div>
-                    </article>
+    <!-- End Header -->
 
-                    <article class="collection-card">
-                        <div class="card-images">
-                            <img src="assets/img/collections/magic-mushrooms-cover.png" alt="magic mushrooms collection cover image">
-                            <div class="card-thumbnails d-flex">
-                                <img src="assets/img/collections/magic-mushrooms-thumbnail-1.png" alt="magic mushrooms collection thumbnail 1">
-                                <img src="assets/img/collections/magic-mushrooms-thumbnail-2.png" alt="magic mushrooms collection thumbnail 2">
-                                <a href="#">1025+</a>
-                            </div>
-                        </div>
-                        <div class="card-info">
-                            <h3>Magic Mushrooms</h3>
-                            <div class="creator d-flex align-center">
-                                <img src="assets/img/collections/creator-shroomie-avatar.png" alt="magic mushrooms collection creator avatar">
-                                <strong>Shroomie</strong>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="collection-card">
-                        <div class="card-images">
-                            <img src="assets/img/collections/disco-machines-cover.png" alt="disco machines collection cover image">
-                            <div class="card-thumbnails d-flex">
-                                <img src="assets/img/collections/disco-machines-thumbnail-1.png" alt="disco machines collection thumbnail 1">
-                                <img src="assets/img/collections/disco-machines-thumbnail-2.png" alt="disco machines collection thumbnail 2">
-                                <a href="#">1025+</a>
-                            </div>
-                        </div>
-                        <div class="card-info">
-                            <h3>Disco Machines</h3>
-                            <div class="creator d-flex align-center">
-                                <img src="assets/img/collections/creator-bekind2robots-avatar.png" alt="disco machines collection creator avatar">
-                                <strong>BeKind2Robots</strong>
-                            </div>
-                        </div>
-                    </article>
+    <!-- Start Main Content -->
+    <main>
+      <!-- Welcome Section -->
+      <section class="welcome">
+        <div class="container">
+          <div class="d-flex justify-between align-center">
+            <div class="welcome-content">
+              <h1>Discover &nbsp; digital art & Collect NFTs</h1>
+              <p>
+                NFT marketplace UI created with Anima for Figma. Collect, buy
+                and sell art from more than 20k NFT artists.
+              </p>
+              <button
+                type="button"
+                class="d-flex align-center rocket-button"
+                data-href="/sign-up.html"
+              >
+                <img
+                  src="assets/img/rocket-launch-icon.svg"
+                  alt="rocket launch icon"
+                />
+                <span>Get Started</span>
+              </button>
+              <div class="statistic d-flex align-center">
+                <div>
+                  <div class="stat-number">240k+</div>
+                  <div class="stat-text">Total Sale</div>
                 </div>
+                <div>
+                  <div class="stat-number">100k+</div>
+                  <div class="stat-text">Auctions</div>
+                </div>
+                <div>
+                  <div class="stat-number">240k+</div>
+                  <div class="stat-text">Artists</div>
+                </div>
+              </div>
             </div>
-        </section>
-        <section class="top-creators">
-            <div class="container">
-                <div class="section-header d-flex justify-between align-center">
-                   <div>
-                        <h2>Top Creators</h2>
-                        <p>Checkout Top Rated Creators on the NFT Marketplace</p>
-                   </div>
-                   <a href="#" class="d-flex align-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="red">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.17053 12.4494C6.28055 12.7766 6.10451 13.131 5.77734 13.241C4.71792 13.5973 4.15489 14.4866 3.85373 15.391C3.73414 15.7501 3.66189 16.0958 3.61848 16.3817C3.90434 16.3383 4.25006 16.266 4.60917 16.1464C5.51355 15.8453 6.4029 15.2823 6.75916 14.2228C6.86918 13.8957 7.2236 13.7196 7.55078 13.8296C7.87795 13.9397 8.05399 14.2941 7.94396 14.6213C7.4096 16.2103 6.08801 16.9715 5.00411 17.3324C4.45655 17.5148 3.94395 17.6048 3.5698 17.6497C3.38182 17.6722 3.22641 17.6836 3.116 17.6894C3.06074 17.6924 3.01658 17.6939 2.98505 17.6946C2.96928 17.695 2.95666 17.6952 2.94737 17.6954L2.93596 17.6955L2.93217 17.6955L2.93077 17.6955L2.93019 17.6955C2.92993 17.6955 2.92969 17.6955 2.92969 17.0705C2.30469 17.0705 2.30469 17.0702 2.30469 17.07L2.30469 17.0694L2.30469 17.068L2.30471 17.0642L2.30481 17.0528C2.30493 17.0435 2.30514 17.0309 2.30553 17.0151C2.30631 16.9836 2.30782 16.9394 2.31072 16.8842C2.31653 16.7738 2.32797 16.6184 2.35052 16.4304C2.3954 16.0562 2.48542 15.5436 2.66776 14.9961C3.0287 13.9122 3.78989 12.5906 5.37891 12.0562C5.70608 11.9462 6.0605 12.1222 6.17053 12.4494ZM2.92969 17.0705H2.30469C2.30469 17.4157 2.58451 17.6955 2.92969 17.6955V17.0705Z" fill="white"/>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M16.5462 3.45406C15.8208 3.34943 14.0351 3.31002 12.2076 5.13753L7.34482 10.0003L10 12.6555L14.8627 7.79271C16.6903 5.9652 16.6508 4.17951 16.5462 3.45406ZM16.7275 2.21727C15.7298 2.07282 13.5058 2.07157 11.3237 4.25365L6.019 9.55834C5.90179 9.67555 5.83594 9.83452 5.83594 10.0003C5.83594 10.166 5.90179 10.325 6.019 10.4422L9.55806 13.9813C9.80214 14.2254 10.1979 14.2254 10.4419 13.9813L15.7466 8.67659C17.9287 6.49452 17.9275 4.27052 17.783 3.27282C17.7465 3.0058 17.6235 2.75803 17.4329 2.5674C17.2422 2.37678 16.9945 2.25382 16.7275 2.21727Z" fill="white"/>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.422 8.49219C14.7672 8.49219 15.047 8.77201 15.047 9.11719V14.1641L15.0469 14.173C15.0423 14.5013 14.9086 14.8145 14.675 15.045L12.1527 17.575C11.9926 17.7349 11.7921 17.8484 11.5725 17.9033C11.353 17.9582 11.1227 17.9524 10.9061 17.8867C10.6896 17.8209 10.495 17.6976 10.343 17.5299C10.1912 17.3623 10.0877 17.1567 10.0435 16.9349C10.0434 16.9347 10.0435 16.9351 10.0435 16.9349L9.38731 13.6619C9.31946 13.3235 9.53882 12.9941 9.87727 12.9263C10.2157 12.8584 10.5451 13.0778 10.6129 13.4162L11.2694 16.6906L13.797 14.1552V9.11719C13.797 8.77201 14.0768 8.49219 14.422 8.49219Z" fill="white"/>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.82722 4.95319L5.83612 4.95312H10.883C11.2282 4.95312 11.508 5.23295 11.508 5.57812C11.508 5.9233 11.2282 6.20312 10.883 6.20312H5.84496L5.83991 6.20828L5.83988 6.20825L3.30957 8.73075L3.31054 8.73094L6.58398 9.38719C6.92242 9.45504 7.14178 9.78441 7.07393 10.1229C7.00608 10.4613 6.67671 10.6807 6.33827 10.6128L3.0658 9.95675C3.06562 9.95671 3.06543 9.95668 3.06524 9.95664C2.84349 9.91244 2.63788 9.80892 2.47031 9.65711C2.3026 9.50516 2.17928 9.31054 2.11351 9.094C2.04775 8.87746 2.042 8.64712 2.09689 8.42757C2.15178 8.20802 2.26525 8.00749 2.42518 7.84738L2.42612 7.84644L2.42612 7.84644L4.95522 5.32514C5.18573 5.09151 5.49894 4.95786 5.82722 4.95319Z" fill="white"/>
-                        </svg>
-                        View Rankings
-                    </a>
+            <div class="welcome-image">
+              <div class="most-popular-nft">
+                <img
+                  src="assets/img/space-walking-nft.png"
+                  alt="space walking nft image"
+                />
+                <div class="nft-info">
+                  <h3>Space Walking</h3>
+                  <div class="creator d-flex align-center">
+                    <img
+                      src="assets/img/animakid-avatar.png"
+                      alt="creator avatar, animakid"
+                    />
+                    <strong>Animakid</strong>
+                  </div>
                 </div>
-                <div class="top-creators-wrapper d-flex justify-between align-center flex-wrap">
-                    <article class="creator-card d-flex align-center flex-column ">
-                        <img src="assets/img/top-creators/creator-keepitreal-avatar.png" alt="Keepitreal creator avatar">
-                        <div class="card-info">
-                            <h3>Keepitreal</h3>
-                            <div class="earnings d-flex justify-between align-center">
-                                <span class="total-sales">total sales :</span>
-                                <span class="creator-earnings">34.53 ETH</span>
-                            </div>
-                        </div>
-                        <div class="rank-badge d-flex justify-center align-center">1</div>
-                    </article>
-                    <article class="creator-card d-flex align-center flex-column ">
-                        <img src="assets/img/top-creators/creator-digilab-avatar.png" alt="DigiLab creator avatar">
-                        <div class="card-info">
-                            <h3>DigiLab</h3>
-                            <div class="earnings d-flex justify-between align-center">
-                                <span class="total-sales">total sales :</span>
-                                <span class="creator-earnings">34.53 ETH</span>
-                            </div>
-                        </div>
-                        <div class="rank-badge d-flex justify-center align-center">2</div>
-                    </article>
-                    <article class="creator-card d-flex align-center flex-column ">
-                        <img src="assets/img/top-creators/creator-gravityone-avatar.png" alt="GravityOne creator avatar">
-                        <div class="card-info">
-                            <h3>GravityOne</h3>
-                            <div class="earnings d-flex justify-between align-center">
-                                <span class="total-sales">total sales :</span>
-                                <span class="creator-earnings">34.53 ETH</span>
-                            </div>
-                        </div>
-                        <div class="rank-badge d-flex justify-center align-center">3</div>
-                    </article>
-                    <article class="creator-card d-flex align-center flex-column ">
-                        <img src="assets/img/top-creators/creator-juanie-avatar.png" alt="Juanie creator avatar">
-                        <div class="card-info">
-                            <h3>Juanie</h3>
-                            <div class="earnings d-flex justify-between align-center">
-                                <span class="total-sales">total sales :</span>
-                                <span class="creator-earnings">34.53 ETH</span>
-                            </div>
-                        </div>
-                        <div class="rank-badge d-flex justify-center align-center">4</div>
-                    </article>
-                    <article class="creator-card d-flex align-center flex-column ">
-                        <img src="assets/img/top-creators/creator-keepitreal-avatar.png" alt="Keepitreal creator avatar">
-                        <div class="card-info">
-                            <h3>Keepitreal</h3>
-                            <div class="earnings d-flex justify-between align-center">
-                                <span class="total-sales">total sales :</span>
-                                <span class="creator-earnings">34.53 ETH</span>
-                            </div>
-                        </div>
-                        <div class="rank-badge d-flex justify-center align-center">5</div>
-                    </article>
-                    <article class="creator-card d-flex align-center flex-column ">
-                        <img src="assets/img/top-creators/creator-digilab-avatar.png" alt="DigiLab creator avatar">
-                        <div class="card-info">
-                            <h3>DigiLab</h3>
-                            <div class="earnings d-flex justify-between align-center">
-                                <span class="total-sales">total sales :</span>
-                                <span class="creator-earnings">34.53 ETH</span>
-                            </div>
-                        </div>
-                        <div class="rank-badge d-flex justify-center align-center">6</div>
-                    </article>
-                    <article class="creator-card d-flex align-center flex-column ">
-                        <img src="assets/img/top-creators/creator-gravityone-avatar.png" alt="GravityOne creator avatar">
-                        <div class="card-info">
-                            <h3>GravityOne</h3>
-                            <div class="earnings d-flex justify-between align-center">
-                                <span class="total-sales">total sales :</span>
-                                <span class="creator-earnings">34.53 ETH</span>
-                            </div>
-                        </div>
-                        <div class="rank-badge d-flex justify-center align-center">7</div>
-                    </article>
-                    <article class="creator-card d-flex align-center flex-column ">
-                        <img src="assets/img/top-creators/creator-juanie-avatar.png" alt="Juanie creator avatar">
-                        <div class="card-info">
-                            <h3>Juanie</h3>
-                            <div class="earnings d-flex justify-between align-center">
-                                <span class="total-sales">total sales :</span>
-                                <span class="creator-earnings">34.53 ETH</span>
-                            </div>
-                        </div>
-                        <div class="rank-badge d-flex justify-center align-center">8</div>
-                    </article>
-                    <article class="creator-card d-flex align-center flex-column ">
-                        <img src="assets/img/top-creators/creator-keepitreal-avatar.png" alt="Keepitreal creator avatar">
-                        <div class="card-info">
-                            <h3>Keepitreal</h3>
-                            <div class="earnings d-flex justify-between align-center">
-                                <span class="total-sales">total sales :</span>
-                                <span class="creator-earnings">34.53 ETH</span>
-                            </div>
-                        </div>
-                        <div class="rank-badge d-flex justify-center align-center">9</div>
-                    </article>
-                    <article class="creator-card d-flex align-center flex-column ">
-                        <img src="assets/img/top-creators/creator-digilab-avatar.png" alt="DigiLab creator avatar">
-                        <div class="card-info">
-                            <h3>DigiLab</h3>
-                            <div class="earnings d-flex justify-between align-center">
-                                <span class="total-sales">total sales :</span>
-                                <span class="creator-earnings">34.53 ETH</span>
-                            </div>
-                        </div>
-                        <div class="rank-badge d-flex justify-center align-center">10</div>
-                    </article>
-                    <article class="creator-card d-flex align-center flex-column ">
-                        <img src="assets/img/top-creators/creator-gravityone-avatar.png" alt="GravityOne creator avatar">
-                        <div class="card-info">
-                            <h3>GravityOne</h3>
-                            <div class="earnings d-flex justify-between align-center">
-                                <span class="total-sales">total sales :</span>
-                                <span class="creator-earnings">34.53 ETH</span>
-                            </div>
-                        </div>
-                        <div class="rank-badge d-flex justify-center align-center">11</div>
-                    </article>
-                    <article class="creator-card d-flex align-center flex-column ">
-                        <img src="assets/img/top-creators/creator-juanie-avatar.png" alt="Juanie creator avatar">
-                        <div class="card-info">
-                            <h3>Juanie</h3>
-                            <div class="earnings d-flex justify-between align-center">
-                                <span class="total-sales">total sales :</span>
-                                <span class="creator-earnings">34.53 ETH</span>
-                            </div>
-                        </div>
-                        <div class="rank-badge d-flex justify-center align-center">12</div>
-                    </article>
-                   
-                </div>
+              </div>
             </div>
-        </section>
-        <section class="browse-categories">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Browse Categories</h2>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trending Collection -->
+      <section class="trending-colletions">
+        <div class="container">
+          <div class="section-header">
+            <h2>Trending Collections</h2>
+            <p>Checkout our weekly updated trending collection.</p>
+          </div>
+          <div class="collections-wrapper d-flex justify-between align-center">
+            <article class="collection-card">
+              <div class="card-images">
+                <img
+                  data-href="/nft-page.html"
+                  class="go-to-nft-page"
+                  src="assets/img/collections/dsgn-animals-cover.png"
+                  alt="dsgn animals collection cover image"
+                />
+                <div class="card-thumbnails d-flex">
+                  <img
+                    data-href="/nft-page.html"
+                    class="go-to-nft-page"
+                    src="assets/img/collections/dsgn-animals-thumbnail-1.png"
+                    alt="dsgn animals collection thumbnail 1"
+                  />
+                  <img
+                    data-href="/nft-page.html"
+                    class="go-to-nft-page"
+                    src="assets/img/collections/dsgn-animals-thumbnail-2.png"
+                    alt="dsgn animals collection thumbnail 2"
+                  />
+                  <a href="#" class="go-to-nft-page" data-href="/nft-page.html"
+                    >1025+</a
+                  >
                 </div>
-                <ul class="categories-wrapper d-flex align-center justify-between flex-wrap">
-                    <li>
-                        <a href="#">
-                            <div class="category-header">
-                                <div class="layer d-flex justify-center align-center">
-                                    <img src="assets/img/categories/paintbrush-icon.svg" alt="paintbrush icon">
-                                </div>
-                            </div>
-                            <div class="category-footer">
-                                <h4>art</h4>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="category-header">
-                                <div class="layer d-flex justify-center align-center">
-                                    <img src="assets/img/categories/swatches-icon.svg" alt="swatches icon">
-                                </div>
-                            </div>
-                            <div class="category-footer">
-                                <h4>Collectibles</h4>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="category-header">
-                                <div class="layer d-flex justify-center align-center">
-                                    <img src="assets/img/categories/music-icon.svg" alt="music icon">
-                                </div>
-                            </div>
-                            <div class="category-footer">
-                                <h4>Music</h4>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="category-header">
-                                <div class="layer d-flex justify-center align-center">
-                                    <img src="assets/img/categories/camera-icon.svg" alt="camera icon">
-                                </div>
-                            </div>
-                            <div class="category-footer">
-                                <h4>Photography</h4>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="category-header">
-                                <div class="layer d-flex justify-center align-center">
-                                    <img src="assets/img/categories/paintbrush-icon.svg" alt="paintbrush icon">
-                                </div>
-                            </div>
-                            <div class="category-footer">
-                                <h4>art</h4>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="category-header">
-                                <div class="layer d-flex justify-center align-center">
-                                    <img src="assets/img/categories/swatches-icon.svg" alt="swatches icon">
-                                </div>
-                            </div>
-                            <div class="category-footer">
-                                <h4>Collectibles</h4>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="category-header">
-                                <div class="layer d-flex justify-center align-center">
-                                    <img src="assets/img/categories/music-icon.svg" alt="music icon">
-                                </div>
-                            </div>
-                            <div class="category-footer">
-                                <h4>Music</h4>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="category-header">
-                                <div class="layer d-flex justify-center align-center">
-                                    <img src="assets/img/categories/camera-icon.svg" alt="camera icon">
-                                </div>
-                            </div>
-                            <div class="category-footer">
-                                <h4>Photography</h4>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
+              </div>
+              <div class="card-info">
+                <h3>DSGN Animals</h3>
+                <div class="creator d-flex align-center">
+                  <img
+                    data-href="/nft-page.html"
+                    class="go-to-nft-page"
+                    src="assets/img/collections/creator-mrfox-avatar.png"
+                    alt="dsgn animals collection creator avatar"
+                  />
+                  <strong>Animakid</strong>
+                </div>
+              </div>
+            </article>
+
+            <article class="collection-card">
+              <div class="card-images">
+                <img
+                  data-href="/nft-page.html"
+                  class="go-to-nft-page"
+                  src="assets/img/collections/magic-mushrooms-cover.png"
+                  alt="magic mushrooms collection cover image"
+                />
+                <div class="card-thumbnails d-flex">
+                  <img
+                    data-href="/nft-page.html"
+                    class="go-to-nft-page"
+                    src="assets/img/collections/magic-mushrooms-thumbnail-1.png"
+                    alt="magic mushrooms collection thumbnail 1"
+                  />
+                  <img
+                    data-href="/nft-page.html"
+                    class="go-to-nft-page"
+                    src="assets/img/collections/magic-mushrooms-thumbnail-2.png"
+                    alt="magic mushrooms collection thumbnail 2"
+                  />
+                  <a href="#" class="go-to-nft-page" data-href="/nft-page.html"
+                    >1025+</a
+                  >
+                </div>
+              </div>
+              <div class="card-info">
+                <h3>Magic Mushrooms</h3>
+                <div class="creator d-flex align-center">
+                  <img
+                    data-href="/nft-page.html"
+                    class="go-to-nft-page"
+                    src="assets/img/collections/creator-shroomie-avatar.png"
+                    alt="magic mushrooms collection creator avatar"
+                  />
+                  <strong>Shroomie</strong>
+                </div>
+              </div>
+            </article>
+            <article class="collection-card">
+              <div class="card-images">
+                <img
+                  data-href="/nft-page.html"
+                  class="go-to-nft-page"
+                  src="assets/img/collections/disco-machines-cover.png"
+                  alt="disco machines collection cover image"
+                />
+                <div class="card-thumbnails d-flex">
+                  <img
+                    data-href="/nft-page.html"
+                    class="go-to-nft-page"
+                    src="assets/img/collections/disco-machines-thumbnail-1.png"
+                    alt="disco machines collection thumbnail 1"
+                  />
+                  <img
+                    data-href="/nft-page.html"
+                    class="go-to-nft-page"
+                    src="assets/img/collections/disco-machines-thumbnail-2.png"
+                    alt="disco machines collection thumbnail 2"
+                  />
+                  <a href="#" class="go-to-nft-page" data-href="/nft-page.html"
+                    >1025+</a
+                  >
+                </div>
+              </div>
+              <div class="card-info">
+                <h3>Disco Machines</h3>
+                <div class="creator d-flex align-center">
+                  <img
+                    data-href="/nft-page.html"
+                    class="go-to-nft-page"
+                    src="assets/img/collections/creator-bekind2robots-avatar.png"
+                    alt="disco machines collection creator avatar"
+                  />
+                  <strong>BeKind2Robots</strong>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Top Creators -->
+      <section class="top-creators">
+        <div class="container">
+          <div class="section-header d-flex justify-between align-center">
+            <div>
+              <h2>Top Creators</h2>
+              <p>Checkout Top Rated Creators on the NFT Marketplace</p>
             </div>
-        </section>
+            <a
+              href="#"
+              class="d-flex align-center go-to-ranking-page"
+              data-href="/ranking.html"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="red"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6.17053 12.4494C6.28055 12.7766 6.10451 13.131 5.77734 13.241C4.71792 13.5973 4.15489 14.4866 3.85373 15.391C3.73414 15.7501 3.66189 16.0958 3.61848 16.3817C3.90434 16.3383 4.25006 16.266 4.60917 16.1464C5.51355 15.8453 6.4029 15.2823 6.75916 14.2228C6.86918 13.8957 7.2236 13.7196 7.55078 13.8296C7.87795 13.9397 8.05399 14.2941 7.94396 14.6213C7.4096 16.2103 6.08801 16.9715 5.00411 17.3324C4.45655 17.5148 3.94395 17.6048 3.5698 17.6497C3.38182 17.6722 3.22641 17.6836 3.116 17.6894C3.06074 17.6924 3.01658 17.6939 2.98505 17.6946C2.96928 17.695 2.95666 17.6952 2.94737 17.6954L2.93596 17.6955L2.93217 17.6955L2.93077 17.6955L2.93019 17.6955C2.92993 17.6955 2.92969 17.6955 2.92969 17.0705C2.30469 17.0705 2.30469 17.0702 2.30469 17.07L2.30469 17.0694L2.30469 17.068L2.30471 17.0642L2.30481 17.0528C2.30493 17.0435 2.30514 17.0309 2.30553 17.0151C2.30631 16.9836 2.30782 16.9394 2.31072 16.8842C2.31653 16.7738 2.32797 16.6184 2.35052 16.4304C2.3954 16.0562 2.48542 15.5436 2.66776 14.9961C3.0287 13.9122 3.78989 12.5906 5.37891 12.0562C5.70608 11.9462 6.0605 12.1222 6.17053 12.4494ZM2.92969 17.0705H2.30469C2.30469 17.4157 2.58451 17.6955 2.92969 17.6955V17.0705Z"
+                  fill="white"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M16.5462 3.45406C15.8208 3.34943 14.0351 3.31002 12.2076 5.13753L7.34482 10.0003L10 12.6555L14.8627 7.79271C16.6903 5.9652 16.6508 4.17951 16.5462 3.45406ZM16.7275 2.21727C15.7298 2.07282 13.5058 2.07157 11.3237 4.25365L6.019 9.55834C5.90179 9.67555 5.83594 9.83452 5.83594 10.0003C5.83594 10.166 5.90179 10.325 6.019 10.4422L9.55806 13.9813C9.80214 14.2254 10.1979 14.2254 10.4419 13.9813L15.7466 8.67659C17.9287 6.49452 17.9275 4.27052 17.783 3.27282C17.7465 3.0058 17.6235 2.75803 17.4329 2.5674C17.2422 2.37678 16.9945 2.25382 16.7275 2.21727Z"
+                  fill="white"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M14.422 8.49219C14.7672 8.49219 15.047 8.77201 15.047 9.11719V14.1641L15.0469 14.173C15.0423 14.5013 14.9086 14.8145 14.675 15.045L12.1527 17.575C11.9926 17.7349 11.7921 17.8484 11.5725 17.9033C11.353 17.9582 11.1227 17.9524 10.9061 17.8867C10.6896 17.8209 10.495 17.6976 10.343 17.5299C10.1912 17.3623 10.0877 17.1567 10.0435 16.9349C10.0434 16.9347 10.0435 16.9351 10.0435 16.9349L9.38731 13.6619C9.31946 13.3235 9.53882 12.9941 9.87727 12.9263C10.2157 12.8584 10.5451 13.0778 10.6129 13.4162L11.2694 16.6906L13.797 14.1552V9.11719C13.797 8.77201 14.0768 8.49219 14.422 8.49219Z"
+                  fill="white"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M5.82722 4.95319L5.83612 4.95312H10.883C11.2282 4.95312 11.508 5.23295 11.508 5.57812C11.508 5.9233 11.2282 6.20312 10.883 6.20312H5.84496L5.83991 6.20828L5.83988 6.20825L3.30957 8.73075L3.31054 8.73094L6.58398 9.38719C6.92242 9.45504 7.14178 9.78441 7.07393 10.1229C7.00608 10.4613 6.67671 10.6807 6.33827 10.6128L3.0658 9.95675C3.06562 9.95671 3.06543 9.95668 3.06524 9.95664C2.84349 9.91244 2.63788 9.80892 2.47031 9.65711C2.3026 9.50516 2.17928 9.31054 2.11351 9.094C2.04775 8.87746 2.042 8.64712 2.09689 8.42757C2.15178 8.20802 2.26525 8.00749 2.42518 7.84738L2.42612 7.84644L2.42612 7.84644L4.95522 5.32514C5.18573 5.09151 5.49894 4.95786 5.82722 4.95319Z"
+                  fill="white"
+                />
+              </svg>
+              View Rankings
+            </a>
+          </div>
+          <div
+            class="top-creators-wrapper d-flex justify-between align-center flex-wrap"
+          >
+            <article
+              class="creator-card d-flex align-center flex-column"
+              data-href="/artist.html"
+            >
+              <img
+                src="assets/img/top-creators/creator-keepitreal-avatar.png"
+                alt="Keepitreal creator avatar"
+              />
+              <div class="card-info">
+                <h3>Keepitreal</h3>
+                <div class="earnings d-flex justify-between align-center">
+                  <span class="total-sales">total sales :</span>
+                  <span class="creator-earnings">34.53 ETH</span>
+                </div>
+              </div>
+              <div class="rank-badge d-flex justify-center align-center">1</div>
+            </article>
+            <article
+              class="creator-card d-flex align-center flex-column"
+              data-href="/artist.html"
+            >
+              <img
+                src="assets/img/top-creators/creator-digilab-avatar.png"
+                alt="DigiLab creator avatar"
+              />
+              <div class="card-info">
+                <h3>DigiLab</h3>
+                <div class="earnings d-flex justify-between align-center">
+                  <span class="total-sales">total sales :</span>
+                  <span class="creator-earnings">34.53 ETH</span>
+                </div>
+              </div>
+              <div class="rank-badge d-flex justify-center align-center">2</div>
+            </article>
+            <article
+              class="creator-card d-flex align-center flex-column"
+              data-href="/artist.html"
+            >
+              <img
+                src="assets/img/top-creators/creator-gravityone-avatar.png"
+                alt="GravityOne creator avatar"
+              />
+              <div class="card-info">
+                <h3>GravityOne</h3>
+                <div class="earnings d-flex justify-between align-center">
+                  <span class="total-sales">total sales :</span>
+                  <span class="creator-earnings">34.53 ETH</span>
+                </div>
+              </div>
+              <div class="rank-badge d-flex justify-center align-center">3</div>
+            </article>
+            <article
+              class="creator-card d-flex align-center flex-column"
+              data-href="/artist.html"
+            >
+              <img
+                src="assets/img/top-creators/creator-juanie-avatar.png"
+                alt="Juanie creator avatar"
+              />
+              <div class="card-info">
+                <h3>Juanie</h3>
+                <div class="earnings d-flex justify-between align-center">
+                  <span class="total-sales">total sales :</span>
+                  <span class="creator-earnings">34.53 ETH</span>
+                </div>
+              </div>
+              <div class="rank-badge d-flex justify-center align-center">4</div>
+            </article>
+            <article
+              class="creator-card d-flex align-center flex-column"
+              data-href="/artist.html"
+            >
+              <img
+                src="assets/img/top-creators/creator-keepitreal-avatar.png"
+                alt="Keepitreal creator avatar"
+              />
+              <div class="card-info">
+                <h3>Keepitreal</h3>
+                <div class="earnings d-flex justify-between align-center">
+                  <span class="total-sales">total sales :</span>
+                  <span class="creator-earnings">34.53 ETH</span>
+                </div>
+              </div>
+              <div class="rank-badge d-flex justify-center align-center">5</div>
+            </article>
+            <article
+              class="creator-card d-flex align-center flex-column"
+              data-href="/artist.html"
+            >
+              <img
+                src="assets/img/top-creators/creator-digilab-avatar.png"
+                alt="DigiLab creator avatar"
+              />
+              <div class="card-info">
+                <h3>DigiLab</h3>
+                <div class="earnings d-flex justify-between align-center">
+                  <span class="total-sales">total sales :</span>
+                  <span class="creator-earnings">34.53 ETH</span>
+                </div>
+              </div>
+              <div class="rank-badge d-flex justify-center align-center">6</div>
+            </article>
+            <article
+              class="creator-card d-flex align-center flex-column"
+              data-href="/artist.html"
+            >
+              <img
+                src="assets/img/top-creators/creator-gravityone-avatar.png"
+                alt="GravityOne creator avatar"
+              />
+              <div class="card-info">
+                <h3>GravityOne</h3>
+                <div class="earnings d-flex justify-between align-center">
+                  <span class="total-sales">total sales :</span>
+                  <span class="creator-earnings">34.53 ETH</span>
+                </div>
+              </div>
+              <div class="rank-badge d-flex justify-center align-center">7</div>
+            </article>
+            <article
+              class="creator-card d-flex align-center flex-column"
+              data-href="/artist.html"
+            >
+              <img
+                src="assets/img/top-creators/creator-juanie-avatar.png"
+                alt="Juanie creator avatar"
+              />
+              <div class="card-info">
+                <h3>Juanie</h3>
+                <div class="earnings d-flex justify-between align-center">
+                  <span class="total-sales">total sales :</span>
+                  <span class="creator-earnings">34.53 ETH</span>
+                </div>
+              </div>
+              <div class="rank-badge d-flex justify-center align-center">8</div>
+            </article>
+            <article
+              class="creator-card d-flex align-center flex-column"
+              data-href="/artist.html"
+            >
+              <img
+                src="assets/img/top-creators/creator-keepitreal-avatar.png"
+                alt="Keepitreal creator avatar"
+              />
+              <div class="card-info">
+                <h3>Keepitreal</h3>
+                <div class="earnings d-flex justify-between align-center">
+                  <span class="total-sales">total sales :</span>
+                  <span class="creator-earnings">34.53 ETH</span>
+                </div>
+              </div>
+              <div class="rank-badge d-flex justify-center align-center">9</div>
+            </article>
+            <article
+              class="creator-card d-flex align-center flex-column"
+              data-href="/artist.html"
+            >
+              <img
+                src="assets/img/top-creators/creator-digilab-avatar.png"
+                alt="DigiLab creator avatar"
+              />
+              <div class="card-info">
+                <h3>DigiLab</h3>
+                <div class="earnings d-flex justify-between align-center">
+                  <span class="total-sales">total sales :</span>
+                  <span class="creator-earnings">34.53 ETH</span>
+                </div>
+              </div>
+              <div class="rank-badge d-flex justify-center align-center">
+                10
+              </div>
+            </article>
+            <article
+              class="creator-card d-flex align-center flex-column"
+              data-href="/artist.html"
+            >
+              <img
+                src="assets/img/top-creators/creator-gravityone-avatar.png"
+                alt="GravityOne creator avatar"
+              />
+              <div class="card-info">
+                <h3>GravityOne</h3>
+                <div class="earnings d-flex justify-between align-center">
+                  <span class="total-sales">total sales :</span>
+                  <span class="creator-earnings">34.53 ETH</span>
+                </div>
+              </div>
+              <div class="rank-badge d-flex justify-center align-center">
+                11
+              </div>
+            </article>
+            <article
+              class="creator-card d-flex align-center flex-column"
+              data-href="/artist.html"
+            >
+              <img
+                src="assets/img/top-creators/creator-juanie-avatar.png"
+                alt="Juanie creator avatar"
+              />
+              <div class="card-info">
+                <h3>Juanie</h3>
+                <div class="earnings d-flex justify-between align-center">
+                  <span class="total-sales">total sales :</span>
+                  <span class="creator-earnings">34.53 ETH</span>
+                </div>
+              </div>
+              <div class="rank-badge d-flex justify-center align-center">
+                12
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Browse Categories -->
+      <section class="browse-categories">
+        <div class="container">
+          <div class="section-header">
+            <h2>Browse Categories</h2>
+          </div>
+          <ul
+            class="categories-wrapper d-flex align-center justify-between flex-wrap"
+          >
+            <li class="categories-li" data-href="/marketplace.html">
+              <a href="#">
+                <div class="category-header">
+                  <div class="layer d-flex justify-center align-center">
+                    <img
+                      src="assets/img/categories/paintbrush-icon.svg"
+                      alt="paintbrush icon"
+                    />
+                  </div>
+                </div>
+                <div class="category-footer">
+                  <h4>art</h4>
+                </div>
+              </a>
+            </li>
+            <li class="categories-li" data-href="/marketplace.html">
+              <a href="#">
+                <div class="category-header">
+                  <div class="layer d-flex justify-center align-center">
+                    <img
+                      src="assets/img/categories/swatches-icon.svg"
+                      alt="swatches icon"
+                    />
+                  </div>
+                </div>
+                <div class="category-footer">
+                  <h4>Collectibles</h4>
+                </div>
+              </a>
+            </li>
+            <li class="categories-li" data-href="/marketplace.html">
+              <a href="#">
+                <div class="category-header">
+                  <div class="layer d-flex justify-center align-center">
+                    <img
+                      src="assets/img/categories/music-icon.svg"
+                      alt="music icon"
+                    />
+                  </div>
+                </div>
+                <div class="category-footer">
+                  <h4>Music</h4>
+                </div>
+              </a>
+            </li>
+            <li class="categories-li" data-href="/marketplace.html">
+              <a href="#">
+                <div class="category-header">
+                  <div class="layer d-flex justify-center align-center">
+                    <img
+                      src="assets/img/categories/camera-icon.svg"
+                      alt="camera icon"
+                    />
+                  </div>
+                </div>
+                <div class="category-footer">
+                  <h4>Photography</h4>
+                </div>
+              </a>
+            </li>
+            <li class="categories-li" data-href="/marketplace.html">
+              <a href="#">
+                <div class="category-header">
+                  <div class="layer d-flex justify-center align-center">
+                    <img
+                      src="assets/img/categories/paintbrush-icon.svg"
+                      alt="paintbrush icon"
+                    />
+                  </div>
+                </div>
+                <div class="category-footer">
+                  <h4>art</h4>
+                </div>
+              </a>
+            </li>
+            <li class="categories-li" data-href="/marketplace.html">
+              <a href="#">
+                <div class="category-header">
+                  <div class="layer d-flex justify-center align-center">
+                    <img
+                      src="assets/img/categories/swatches-icon.svg"
+                      alt="swatches icon"
+                    />
+                  </div>
+                </div>
+                <div class="category-footer">
+                  <h4>Collectibles</h4>
+                </div>
+              </a>
+            </li>
+            <li class="categories-li" data-href="/marketplace.html">
+              <a href="#">
+                <div class="category-header">
+                  <div class="layer d-flex justify-center align-center">
+                    <img
+                      src="assets/img/categories/music-icon.svg"
+                      alt="music icon"
+                    />
+                  </div>
+                </div>
+                <div class="category-footer">
+                  <h4>Music</h4>
+                </div>
+              </a>
+            </li>
+            <li class="categories-li" data-href="/marketplace.html">
+              <a href="#">
+                <div class="category-header">
+                  <div class="layer d-flex justify-center align-center">
+                    <img
+                      src="assets/img/categories/camera-icon.svg"
+                      alt="camera icon"
+                    />
+                  </div>
+                </div>
+                <div class="category-footer">
+                  <h4>Photography</h4>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Discover More -->
+      <section class="discover-more">
+        <div class="container">
+          <div class="section-header d-flex justify-between align-center">
+            <div>
+              <h2>Discover More NFTs</h2>
+              <p>Explore new trending NFTs</p>
+            </div>
+            <a href="/marketplace.html" class="d-flex align-center">
+              <img
+                src="./assets/img/discover-more/Eye.png"
+                alt="discover more eye - see all"
+              />
+              See All
+            </a>
+          </div>
+          <div
+            class="discover-more-wrapper d-flex justify-between align-center flex-wrap"
+          >
+            <!-- First article -->
+            <article
+              class="discover-card d-flex align-center flex-column"
+              data-href="/marketplace.html"
+            >
+              <img
+                src="./assets/img/discover-more/distant-galaxy.png"
+                alt="distant galaxy avatar"
+              />
+              <div class="card-info d-flex flex-column">
+                <h3>Distant Galaxy</h3>
+                <div class="discover-card-small-icon d-flex">
+                  <img
+                    src="./assets/img/discover-more/distant-galaxy-small.png"
+                    alt="distant galaxy icon"
+                  />
+                  <span class="discover-card-small-icon-text">MoonDancer</span>
+                </div>
+                <div class="earnings-wrapper d-flex justify-between">
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-start"
+                  >
+                    <span class="total-sales">Price</span>
+                    <span class="creator-earnings">1.63 ETH</span>
+                  </div>
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-end"
+                  >
+                    <span class="total-sales">Highest Bid</span>
+                    <span class="creator-earnings">0.33 wETH</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Second article -->
+            <article
+              class="discover-card d-flex align-center flex-column"
+              data-href="/marketplace.html"
+            >
+              <img
+                src="./assets/img/discover-more/life-on-edena.png"
+                alt="distant galaxy avatar"
+              />
+              <div class="card-info d-flex flex-column">
+                <h3>Distant Galaxy</h3>
+                <div class="discover-card-small-icon d-flex">
+                  <img
+                    src="./assets/img/discover-more/life-on-edena-small.png"
+                    alt="distant galaxy icon"
+                  />
+                  <span class="discover-card-small-icon-text">MoonDancer</span>
+                </div>
+                <div class="earnings-wrapper d-flex justify-between">
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-start"
+                  >
+                    <span class="total-sales">Price</span>
+                    <span class="creator-earnings">1.63 ETH</span>
+                  </div>
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-end"
+                  >
+                    <span class="total-sales">Highest Bid</span>
+                    <span class="creator-earnings">0.33 wETH</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Third article -->
+            <article
+              class="discover-card d-flex align-center flex-column"
+              data-href="/marketplace.html"
+            >
+              <img
+                src="./assets/img/discover-more/astro-fiction.png"
+                alt="distant galaxy avatar"
+              />
+              <div class="card-info d-flex flex-column">
+                <h3>Distant Galaxy</h3>
+                <div class="discover-card-small-icon d-flex">
+                  <img
+                    src="./assets/img/discover-more/astro-fiction-small.png"
+                    alt="distant galaxy icon"
+                  />
+                  <span class="discover-card-small-icon-text">MoonDancer</span>
+                </div>
+                <div class="earnings-wrapper d-flex justify-between">
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-start"
+                  >
+                    <span class="total-sales">Price</span>
+                    <span class="creator-earnings">1.63 ETH</span>
+                  </div>
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-end"
+                  >
+                    <span class="total-sales">Highest Bid</span>
+                    <span class="creator-earnings">0.33 wETH</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Magic Mashrooms Background -->
+      <section class="magic-mashrooms-background">
+        <div class="magic-mashrooms-background-texts d-flex justify-between">
+          <div class="magic-mashrooms-background-texts-left d-flex flex-column">
+            <div
+              class="magic-mashrooms-background-texts-left-top d-flex"
+              data-href="/artist.html"
+            >
+              <img
+                src="./assets/img/magic-mashrooms-background/shroomie-avatar.png"
+                alt="Magic mashrooms shroomie avatar"
+              />
+              <span>Shroomie</span>
+            </div>
+            <p>Magic Mashrooms</p>
+            <button
+              type="button"
+              class="d-flex justify-center align-center mashroom-button"
+              data-href="/nft-page.html"
+            >
+              <img
+                src="./assets/img/magic-mashrooms-background/Eye.png"
+                alt="magic mashrooms background eye"
+              />
+              See NFT
+            </button>
+          </div>
+          <div class="magic-mashrooms-background-texts-right d-flex">
+            <div
+              class="magic-mashrooms-background-texts-right-content align-self-end"
+            >
+              <img
+                src="./assets/img/magic-mashrooms-background/magic-mashrooms-auction-timer.png"
+                alt="magic mashrooms auction timer"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- How It Work -->
+      <section class="how-it-work">
+        <div class="container">
+          <div class="section-header d-flex justify-between align-center">
+            <div>
+              <h2>How it works</h2>
+              <p>Find out how to get started</p>
+            </div>
+          </div>
+          <div
+            class="how-it-work-wrapper d-flex justify-between align-center flex-wrap"
+          >
+            <!-- First article -->
+            <article
+              class="how-it-work-card d-flex flex-column align-self-start"
+            >
+              <img
+                src="./assets/img/how-it-work/how-it-work-top-image.png"
+                alt="how it work top image"
+              />
+              <div class="card-info d-flex flex-column align-center">
+                <p>Setup Your wallet</p>
+                <span>
+                  Set up your wallet of choice. Connect it to the Animarket by
+                  clicking the wallet icon in the top right corner.
+                </span>
+              </div>
+            </article>
+
+            <!-- Second article -->
+            <article
+              class="how-it-work-card d-flex flex-column align-self-start"
+            >
+              <img
+                src="./assets/img/how-it-work/how-it-work-top-image.png"
+                alt="how it work top image"
+              />
+              <div class="card-info d-flex flex-column align-center">
+                <p>Create Collection</p>
+                <span>
+                  Upload your work and setup your collection. Add a description,
+                  social links and floor price.
+                </span>
+              </div>
+            </article>
+
+            <!-- Third article -->
+            <article
+              class="how-it-work-card d-flex flex-column align-self-start"
+            >
+              <img
+                src="./assets/img/how-it-work/how-it-work-top-image.png"
+                alt="how it work top image"
+              />
+              <div class="card-info d-flex flex-column align-center">
+                <p>Start Earning</p>
+                <span>
+                  Choose between auctions and fixed-price listings. Start
+                  earning by selling your NFTs or trading others.
+                </span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Subscription Section -->
+      <section class="subscription">
+        <div class="container">
+          <div class="subscription-wrapper d-flex justify-between align-center">
+            <div class="subscription-left">
+              <img
+                src="./assets/img/subscription/subscription-photo.png"
+                alt="subscription image"
+              />
+            </div>
+            <div class="subscription-right d-flex flex-column">
+              <div class="subscription-right-top d-flex flex-column">
+                <p>Join Our Weekly Digest</p>
+                <span>
+                  Get exclusive promotions & updates straight to your inbox.
+                </span>
+              </div>
+              <div class="subscription-right-bottom">
+                <input
+                  type="text"
+                  title="subscription input"
+                  placeholder="Enter your email here"
+                />
+                <button
+                  type="button"
+                  class="d-flex align-center subscription-right-bottom-button"
+                >
+                  <img
+                    src="./assets/img/subscription/email-icon.png"
+                    alt="email icon"
+                  />
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-</body>
+    <!-- End Main Content -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-top-content d-flex flex-wrap">
+            <!-- footer top content first div -->
+            <div class="footer-top-content-first d-flex flex-column">
+              <div
+                class="footer-top-content-first-storefront d-flex align-center"
+              >
+                <img
+                  src="./assets/img/footer/footer-storefront.png"
+                  alt="storefront"
+                />
+                <span>NFT Marketplace</span>
+              </div>
+              <div class="d-flex flex-column">
+                <div class="footer-top-content-first-centre-text">
+                  <span>NFT marketplace UI created with Anima for Figma.</span>
+                </div>
+                <div class="social-networks-wrapper d-flex flex-column">
+                  <span>Join our community</span>
+                  <div class="social-networks d-flex align-center">
+                    <img
+                      src="./assets/img/footer/DiscordLogo.png"
+                      alt="Discord"
+                    />
+                    <img
+                      src="./assets/img/footer/YoutubeLogo.png"
+                      alt="Youtube"
+                    />
+                    <img
+                      src="./assets/img/footer/TwitterLogo.png"
+                      alt="twitter"
+                    />
+                    <img
+                      src="./assets/img/footer/InstagramLogo.png"
+                      alt="Instagram"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End footer top content first div -->
+
+            <!-- footer top content second div -->
+            <div class="footer-top-content-second d-flex flex-column">
+              <h3>Explore</h3>
+              <div class="d-flex flex-column">
+                <a href="./marketplace.html">Marketplace</a>
+                <a href="./ranking.html">Rankings</a>
+                <a href="./connect-wallet.html">Connect a wallet</a>
+              </div>
+            </div>
+            <!-- End footer top content second div -->
+
+            <!-- footer top content third div -->
+            <div class="footer-top-content-third d-flex flex-column">
+              <h3>Join our weekly digest</h3>
+              <span>
+                Get exclusive promotions & updates straight to your inbox.
+              </span>
+              <div class="footer-subscription">
+                <input
+                  type="text"
+                  title="subscription input"
+                  placeholder="Enter your email here"
+                />
+                <button type="button" class="d-flex align-center">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+            <!-- End footer top content third div -->
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>Ⓒ NFT Market. Use this template freely.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- scripts -->
+    <script>
+      document
+        .querySelectorAll(".rocket-button")
+        .forEach(
+          (row) => (row.onclick = () => (location.href = row.dataset.href)),
+        );
+
+      document
+        .querySelectorAll(".go-to-nft-page")
+        .forEach(
+          (row) => (row.onclick = () => (location.href = row.dataset.href)),
+        );
+
+      document
+        .querySelectorAll(".go-to-ranking-page")
+        .forEach(
+          (row) => (row.onclick = () => (location.href = row.dataset.href)),
+        );
+
+      document
+        .querySelectorAll(".creator-card")
+        .forEach(
+          (row) => (row.onclick = () => (location.href = row.dataset.href)),
+        );
+
+      document
+        .querySelectorAll(".categories-li")
+        .forEach(
+          (row) => (row.onclick = () => (location.href = row.dataset.href)),
+        );
+
+      document
+        .querySelectorAll(".discover-card")
+        .forEach(
+          (row) => (row.onclick = () => (location.href = row.dataset.href)),
+        );
+
+      document
+        .querySelectorAll(".magic-mashrooms-background-texts-left-top")
+        .forEach(
+          (row) => (row.onclick = () => (location.href = row.dataset.href)),
+        );
+
+      document
+        .querySelectorAll(".mashroom-button")
+        .forEach(
+          (row) => (row.onclick = () => (location.href = row.dataset.href)),
+        );
+
+      document
+        .querySelectorAll(".subscription-right-bottom-button")
+        .forEach(
+          (row) => (row.onclick = () => (location.href = row.dataset.href)),
+        );
+    </script>
+  </body>
 </html>

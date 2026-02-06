@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artist Page</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/artist-page.css" />
+  </head>
+  <body id="artist-body">
+    <!-- Header -->
+    <header>
+      <div class="d-flex align-center justify-between">
+        <div class="logo">
+          <a href="index.html" class="d-flex align-center">
+            <img src="assets/img/logo.svg" alt="site logo" />
+            <span>NFT Marketplace</span>
+          </a>
+        </div>
+        <nav>
+          <ul class="d-flex align-center">
+            <li>
+              <a href="./marketplace.html">Marketplace</a>
+            </li>
+            <li>
+              <a href="./ranking.html">Rankings</a>
+            </li>
+            <li>
+              <a href="./connect-wallet.html">Connect a wallet</a>
+            </li>
+            <li>
+              <a href="./sign-up.html" class="d-flex align-center">
+                <img src="assets/img/user.svg" alt="user icon" />
+                <span>Sign Up</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Main Content -->
+    <main>
+      <!-- Profile Cover -->
+      <section class="profile">
+        <div class="cover-wrapper">
+          <div class="profile-cover"></div>
+          <img
+            src="./assets/img/artist-page/artist-profile-avatar.png"
+            alt="Artist Profile Avatar"
+          />
+        </div>
+
+        <div class="container">
+          <!-- Info -->
+          <div class="artist-info d-flex justify-between">
+            <div class="artist-info-left d-flex flex-column">
+              <h2>Animakid</h2>
+              <!-- stats -->
+              <div class="stats d-flex">
+                <div class="d-flex flex-column">
+                  <h4>250k+</h4>
+                  <p>Volume</p>
+                </div>
+                <div class="d-flex flex-column">
+                  <h4>50k+</h4>
+                  <p>NFTs Sold</p>
+                </div>
+                <div class="d-flex flex-column">
+                  <h4>3000k+</h4>
+                  <p>Followers</p>
+                </div>
+              </div>
+              <!-- bio -->
+              <div class="bio d-flex flex-column">
+                <h5>Bio</h5>
+                <p>The internet's friendliest designer kid.</p>
+              </div>
+              <!-- links -->
+              <div class="links">
+                <h5>Links</h5>
+                <div class="links-icons d-flex">
+                  <img
+                    src="./assets/img/artist-page/social-links-globe-logo.png"
+                    alt="Globe"
+                  />
+                  <img
+                    src="./assets/img/artist-page/social-links-discord-logo.png"
+                    alt="Discord"
+                  />
+                  <img
+                    src="./assets/img/artist-page/social-links-youtube-logo.png"
+                    alt="Youtube"
+                  />
+                  <img
+                    src="./assets/img/artist-page/social-links-twitter-logo.png"
+                    alt="Twitter"
+                  />
+                  <img
+                    src="./assets/img/artist-page/social-links-instagram-logo.png"
+                    alt="Instagram"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="artist-info-right d-flex">
+              <button type="button" class="copy d-flex align-center">
+                <img
+                  src="./assets/img/artist-page/artist-info-copy-button.png"
+                  alt="Copy Button"
+                />
+                0xc0E3...B79C
+              </button>
+              <button type="button" class="follow d-flex align-center">
+                <img
+                  src="./assets/img/artist-page/artist-info-plus-button.png"
+                  alt="Follow Button"
+                />
+                Follow
+              </button>
+            </div>
+          </div>
+
+          <!-- Tabs -->
+          <div
+            class="artist-tabs d-flex flex-wrap align-center justify-between"
+          >
+            <div class="tab d-flex align-center justify-center created">
+              <div class="text">Created</div>
+              <div class="badge">302</div>
+            </div>
+            <div class="tab d-flex align-center justify-center owned">
+              <div class="text">Owned</div>
+              <div class="badge">67</div>
+            </div>
+            <div class="tab d-flex align-center justify-center collection">
+              <div class="text">Collection</div>
+              <div class="badge">4</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Cards -->
+      <section class="artist-cards">
+        <div class="container">
+          <div
+            class="artist-cards-wrapper d-flex flex-wrap align-center justify-between"
+          >
+            <!-- First -->
+            <article class="artist-card d-flex align-center flex-column">
+              <img
+                src="./assets/img/artist-page/distant-galaxy-image.png"
+                alt="Distant Galaxy Image"
+              />
+              <div class="card-info d-flex flex-column">
+                <h3>Distant Galaxy</h3>
+                <div class="artist-card-small-icon d-flex">
+                  <img
+                    src="./assets/img/artist-page/artist-cards-small-avatar.png"
+                    alt="Artist Cards Small Avatar"
+                  />
+                  <span class="artist-card-small-icon-text">Animakid</span>
+                </div>
+                <div class="earnings-wrapper d-flex justify-between">
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-start"
+                  >
+                    <span class="total-sales">Price</span>
+                    <span class="creator-earnings">1.63 ETH</span>
+                  </div>
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-end"
+                  >
+                    <span class="total-sales">Highest Bid</span>
+                    <span class="creator-earnings">0.33 wETH</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- Second -->
+            <article class="artist-card d-flex align-center flex-column">
+              <img
+                src="./assets/img/artist-page/life-on-edena-image.png"
+                alt="Life on Edena Image"
+              />
+              <div class="card-info d-flex flex-column">
+                <h3>Life On Edena</h3>
+                <div class="artist-card-small-icon d-flex">
+                  <img
+                    src="./assets/img/artist-page/artist-cards-small-avatar.png"
+                    alt="Artist Cards Small Avatar"
+                  />
+                  <span class="artist-card-small-icon-text">Animakid</span>
+                </div>
+                <div class="earnings-wrapper d-flex justify-between">
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-start"
+                  >
+                    <span class="total-sales">Price</span>
+                    <span class="creator-earnings">1.63 ETH</span>
+                  </div>
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-end"
+                  >
+                    <span class="total-sales">Highest Bid</span>
+                    <span class="creator-earnings">0.33 wETH</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- three -->
+            <article class="artist-card d-flex align-center flex-column">
+              <img
+                src="./assets/img/artist-page/astro-fiction-image.png"
+                alt="astro Fiction Image"
+              />
+              <div class="card-info d-flex flex-column">
+                <h3>AstroFiction</h3>
+                <div class="artist-card-small-icon d-flex">
+                  <img
+                    src="./assets/img/artist-page/artist-cards-small-avatar.png"
+                    alt="Artist Cards Small Avatar"
+                  />
+                  <span class="artist-card-small-icon-text">Animakid</span>
+                </div>
+                <div class="earnings-wrapper d-flex justify-between">
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-start"
+                  >
+                    <span class="total-sales">Price</span>
+                    <span class="creator-earnings">1.63 ETH</span>
+                  </div>
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-end"
+                  >
+                    <span class="total-sales">Highest Bid</span>
+                    <span class="creator-earnings">0.33 wETH</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- four -->
+            <article class="artist-card d-flex align-center flex-column">
+              <img
+                src="./assets/img/artist-page/crypto-city-image.png"
+                alt="Crypto City Image"
+              />
+              <div class="card-info d-flex flex-column">
+                <h3>CryptoCity</h3>
+                <div class="artist-card-small-icon d-flex">
+                  <img
+                    src="./assets/img/artist-page/artist-cards-small-avatar.png"
+                    alt="Artist Cards Small Avatar"
+                  />
+                  <span class="artist-card-small-icon-text">Animakid</span>
+                </div>
+                <div class="earnings-wrapper d-flex justify-between">
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-start"
+                  >
+                    <span class="total-sales">Price</span>
+                    <span class="creator-earnings">1.63 ETH</span>
+                  </div>
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-end"
+                  >
+                    <span class="total-sales">Highest Bid</span>
+                    <span class="creator-earnings">0.33 wETH</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- five -->
+            <article class="artist-card d-flex align-center flex-column">
+              <img
+                src="./assets/img/artist-page/colorfu-dog-image.png"
+                alt="Colorful Dog Image"
+              />
+              <div class="card-info d-flex flex-column">
+                <h3>ColorfulDog 0524</h3>
+                <div class="artist-card-small-icon d-flex">
+                  <img
+                    src="./assets/img/artist-page/artist-cards-small-avatar.png"
+                    alt="Artist Cards Small Avatar"
+                  />
+                  <span class="artist-card-small-icon-text">Animakid</span>
+                </div>
+                <div class="earnings-wrapper d-flex justify-between">
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-start"
+                  >
+                    <span class="total-sales">Price</span>
+                    <span class="creator-earnings">1.63 ETH</span>
+                  </div>
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-end"
+                  >
+                    <span class="total-sales">Highest Bid</span>
+                    <span class="creator-earnings">0.33 wETH</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- six -->
+            <article class="artist-card d-flex align-center flex-column">
+              <img
+                src="./assets/img/artist-page/space-tales-image.png"
+                alt="Space Tales Image"
+              />
+              <div class="card-info d-flex flex-column">
+                <h3>Space Tales</h3>
+                <div class="artist-card-small-icon d-flex">
+                  <img
+                    src="./assets/img/artist-page/artist-cards-small-avatar.png"
+                    alt="Artist Cards Small Avatar"
+                  />
+                  <span class="artist-card-small-icon-text">Animakid</span>
+                </div>
+                <div class="earnings-wrapper d-flex justify-between">
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-start"
+                  >
+                    <span class="total-sales">Price</span>
+                    <span class="creator-earnings">1.63 ETH</span>
+                  </div>
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-end"
+                  >
+                    <span class="total-sales">Highest Bid</span>
+                    <span class="creator-earnings">0.33 wETH</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- seven -->
+            <article class="artist-card d-flex align-center flex-column">
+              <img
+                src="./assets/img/artist-page/cherry-blossom-girl-image.png"
+                alt="Cherry Blossom Image"
+              />
+              <div class="card-info d-flex flex-column">
+                <h3>Cherry Blossom Girl 037</h3>
+                <div class="artist-card-small-icon d-flex">
+                  <img
+                    src="./assets/img/artist-page/artist-cards-small-avatar.png"
+                    alt="Artist Cards Small Avatar"
+                  />
+                  <span class="artist-card-small-icon-text">Animakid</span>
+                </div>
+                <div class="earnings-wrapper d-flex justify-between">
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-start"
+                  >
+                    <span class="total-sales">Price</span>
+                    <span class="creator-earnings">1.63 ETH</span>
+                  </div>
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-end"
+                  >
+                    <span class="total-sales">Highest Bid</span>
+                    <span class="creator-earnings">0.33 wETH</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- eight -->
+            <article class="artist-card d-flex align-center flex-column">
+              <img
+                src="./assets/img/artist-page/dancing-robots-image.png"
+                alt="Dancing Robots Image"
+              />
+              <div class="card-info d-flex flex-column">
+                <h3>Dancing Robots 0987</h3>
+                <div class="artist-card-small-icon d-flex">
+                  <img
+                    src="./assets/img/artist-page/artist-cards-small-avatar.png"
+                    alt="Artist Cards Small Avatar"
+                  />
+                  <span class="artist-card-small-icon-text">Animakid</span>
+                </div>
+                <div class="earnings-wrapper d-flex justify-between">
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-start"
+                  >
+                    <span class="total-sales">Price</span>
+                    <span class="creator-earnings">1.63 ETH</span>
+                  </div>
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-end"
+                  >
+                    <span class="total-sales">Highest Bid</span>
+                    <span class="creator-earnings">0.33 wETH</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- nine -->
+            <article class="artist-card d-flex align-center flex-column">
+              <img
+                src="./assets/img/artist-page/ice-cream-ape-image.png"
+                alt="Ice-cream Ape Image"
+              />
+              <div class="card-info d-flex flex-column">
+                <h3>IceCream Ape</h3>
+                <div class="artist-card-small-icon d-flex">
+                  <img
+                    src="./assets/img/artist-page/artist-cards-small-avatar.png"
+                    alt="Artist Cards Small Avatar"
+                  />
+                  <span class="artist-card-small-icon-text">Animakid</span>
+                </div>
+                <div class="earnings-wrapper d-flex justify-between">
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-start"
+                  >
+                    <span class="total-sales">Price</span>
+                    <span class="creator-earnings">1.63 ETH</span>
+                  </div>
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-end"
+                  >
+                    <span class="total-sales">Highest Bid</span>
+                    <span class="creator-earnings">0.33 wETH</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- End Main Content -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-top-content d-flex flex-wrap">
+            <!-- footer top content first div -->
+            <div class="footer-top-content-first d-flex flex-column">
+              <div
+                class="footer-top-content-first-storefront d-flex align-center"
+              >
+                <img
+                  src="./assets/img/footer/footer-storefront.png"
+                  alt="storefront"
+                />
+                <span>NFT Marketplace</span>
+              </div>
+              <div class="d-flex flex-column">
+                <div class="footer-top-content-first-centre-text">
+                  <span>NFT marketplace UI created with Anima for Figma.</span>
+                </div>
+                <div class="social-networks-wrapper d-flex flex-column">
+                  <span>Join our community</span>
+                  <div class="social-networks d-flex align-center">
+                    <img
+                      src="./assets/img/footer/DiscordLogo.png"
+                      alt="Discord"
+                    />
+                    <img
+                      src="./assets/img/footer/YoutubeLogo.png"
+                      alt="Youtube"
+                    />
+                    <img
+                      src="./assets/img/footer/TwitterLogo.png"
+                      alt="twitter"
+                    />
+                    <img
+                      src="./assets/img/footer/InstagramLogo.png"
+                      alt="Instagram"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End footer top content first div -->
+
+            <!-- footer top content second div -->
+            <div class="footer-top-content-second d-flex flex-column">
+              <h3>Explore</h3>
+              <div class="d-flex flex-column">
+                <a href="./marketplace.html">Marketplace</a>
+                <a href="./ranking.html">Rankings</a>
+                <a href="./connect-wallet.html">Connect a wallet</a>
+              </div>
+            </div>
+            <!-- End footer top content second div -->
+
+            <!-- footer top content third div -->
+            <div class="footer-top-content-third d-flex flex-column">
+              <h3>Join our weekly digest</h3>
+              <span>
+                Get exclusive promotions & updates straight to your inbox.
+              </span>
+              <div class="footer-subscription">
+                <input
+                  type="text"
+                  title="subscription input"
+                  placeholder="Enter your email here"
+                />
+                <button type="button" class="d-flex align-center">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+            <!-- End footer top content third div -->
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>Ⓒ NFT Market. Use this template freely.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+  </body>
+</html>

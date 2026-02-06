@@ -1,0 +1,150 @@
+/**************** Start ****************/
+
+section.top-section {
+  & .container {
+    & .top-section-content {
+      color: var(--light);
+      font-family: "work-sans";
+      gap: 20px;
+
+      & h2 {
+        font-size: var(--second-level-heading-size);
+        line-height: 110%;
+        font-weight: 600;
+      }
+      & p {
+        font-size: var(--fifth-level-heading-size);
+        line-height: 160%;
+      }
+    }
+  }
+}
+
+section.tabs-section {
+  padding: 0px;
+
+  & .container {
+    & .tabs {
+      & .tab {
+        color: var(--label-text);
+        background: transparent;
+        cursor: pointer;
+        font-size: var(--fifth-level-heading-size);
+        font-weight: 600;
+        line-height: 140%;
+      }
+
+      & .today {
+        padding: 15px 100px;
+        border-bottom: 2px solid var(--label-text);
+      }
+
+      & .this-week {
+        padding: 15px 75px;
+      }
+
+      & .this-month {
+        padding: 15px 70px;
+      }
+
+      & .all-time {
+        padding: 15px 87px;
+      }
+    }
+
+    & .tabs .tab:first-child {
+      color: var(--light);
+    }
+  }
+}
+
+section.ranking-cards-section {
+  padding: 40px 0px;
+
+  & .container {
+    & .ranking-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0 16px;
+
+      /*** thead ***/
+      & thead {
+        & tr {
+          background: var(--dark);
+          border-radius: 20px;
+          border: 1px solid var(--label-text);
+          font-family: "space-mono";
+
+          & th {
+            padding: 14px 16px;
+            text-align: left;
+            color: var(--label-text);
+          }
+        }
+      }
+
+      /*** tbody ***/
+      & tbody {
+        font-family: "space-mono";
+
+        & tr {
+          background: var(--semi-dark);
+          cursor: pointer;
+
+          & td:first-child {
+            border-radius: 20px 0 0 20px;
+          }
+
+          & td:last-child {
+            border-radius: 0 20px 20px 0;
+          }
+
+          & td {
+            padding: 14px 16px;
+            vertical-align: middle;
+          }
+
+          & .rank {
+            & div {
+              border-radius: 20px;
+              background-color: var(--dark);
+              color: var(--label-text);
+              width: 30px;
+              height: 30px;
+              padding: 10px;
+            }
+          }
+
+          & .artist {
+            font-family: "work-sans";
+            gap: 14px;
+            transition: transform 0.3s ease;
+
+            & img {
+              width: 60px;
+              height: 60px;
+              border-radius: 50%;
+            }
+
+            & span {
+              font-size: var(--fifth-level-heading-size);
+              font-weight: 600;
+              line-height: 140%;
+              color: var(--light);
+            }
+          }
+
+          & .artist:hover {
+            transform: scale(0.96);
+          }
+
+          & .change.positive {
+            color: #00ac4f;
+          }
+        }
+      }
+    }
+  }
+}
+
+/**************** End ****************/

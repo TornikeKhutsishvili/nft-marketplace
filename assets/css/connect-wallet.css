@@ -1,0 +1,68 @@
+/**************** Start ****************/
+
+section.connect-wallet {
+  padding: 0px;
+
+  & .content-wrapper {
+    font-family: "work-sans";
+    gap: 60px;
+
+    & .left {
+      & img {
+        width: 760px;
+        height: 810px;
+      }
+    }
+
+    & .right {
+      padding: 100px 150px 100px 0px;
+      gap: 40px;
+
+      & .right-text {
+        gap: 20px;
+
+        & h2 {
+          font-size: var(--second-level-heading-size);
+          font-weight: 600;
+          line-height: 110%;
+        }
+        & span {
+          font-size: var(--fifth-level-heading-size);
+          line-height: 160%;
+          max-width: 460px;
+        }
+      }
+
+      & .right-divs {
+        gap: 20px;
+
+        & div {
+          background-color: var(--semi-dark);
+          padding: 20px 40px;
+          gap: 20px;
+          border-radius: 20px;
+          border: 1px solid var(--primary);
+          cursor: pointer;
+          transition: all 0.5s ease;
+
+          & img {
+            width: 40px;
+            height: 40px;
+          }
+
+          & span {
+            font-size: var(--fifth-level-heading-size);
+            font-weight: 600;
+            line-height: 140%;
+          }
+        }
+
+        & div:hover {
+          transform: scale(0.94);
+        }
+      }
+    }
+  }
+}
+
+/**************** End ****************/

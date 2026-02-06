@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NFT Page</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/nft-page.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="d-flex align-center justify-between">
+        <div class="logo">
+          <a href="index.html" class="d-flex align-center">
+            <img src="assets/img/logo.svg" alt="site logo" />
+            <span>NFT Marketplace</span>
+          </a>
+        </div>
+        <nav>
+          <ul class="d-flex align-center">
+            <li>
+              <a href="./marketplace.html">Marketplace</a>
+            </li>
+            <li>
+              <a href="./ranking.html">Rankings</a>
+            </li>
+            <li>
+              <a href="./connect-wallet.html">Connect a wallet</a>
+            </li>
+            <li>
+              <a href="./sign-up.html" class="d-flex align-center">
+                <img src="assets/img/user.svg" alt="user icon" />
+                <span>Sign Up</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Main Content -->
+    <main>
+      <!-- Background Section -->
+      <section class="cover-background"></section>
+
+      <!-- Info Section -->
+      <section class="info-avatar">
+        <div class="container">
+          <div class="info-avatar-wrapper d-flex align-flex-start">
+            <!-- left -->
+            <div class="info-avatar-left d-flex flex-column">
+              <!-- The Orbitians -->
+              <div class="orbitians">
+                <h2>The Orbitians</h2>
+                <p>Minted on Sep 30, 2022</p>
+              </div>
+              <!-- Created By -->
+              <div class="created">
+                <h5>Created By</h5>
+                <div class="d-flex align-center">
+                  <img
+                    src="./assets/img/nft-page/orbitian-avatar.png"
+                    alt="Orbitian Avatar"
+                  />
+                  <span>Orbitian</span>
+                </div>
+              </div>
+              <!-- Description -->
+              <div class="description">
+                <h5>Description</h5>
+                <span>
+                  The Orbitians is a collection of 10,000 unique NFTs on the
+                  Ethereum blockchain,<br /><br />There are all sorts of beings
+                  in the NFT Universe. The most advanced and friendly of the
+                  bunch are Orbitians. <br /><br />They live in a metal space
+                  machines, high up in the sky and only have one foot on Earth.
+                  These Orbitians are a peaceful race, but they have been at war
+                  with a group of invaders for many generations. The invaders
+                  are called Upside-Downs, because of their inverted bodies that
+                  live on the ground, yet do not know any other way to be.
+                  Upside-Downs believe that they will be able to win this war if
+                  they could only get an eye into Orbitian territory, so they've
+                  taken to make human beings their target.
+                </span>
+              </div>
+              <!-- Details -->
+              <div class="details">
+                <h5>Details</h5>
+                <div class="view-details etherscan d-flex align-center">
+                  <img
+                    src="./assets/img/nft-page/globe-avatar.png"
+                    alt="View on Etherscan"
+                  />
+                  <span>View on Etherscan</span>
+                </div>
+                <div class="view-details d-flex align-center">
+                  <img
+                    src="./assets/img/nft-page/globe-avatar.png"
+                    alt="View Original"
+                  />
+                  <span>View Original</span>
+                </div>
+              </div>
+              <!-- Tags -->
+              <div class="tags">
+                <h5>Tags</h5>
+                <div class="d-flex align-center">
+                  <div>Animation</div>
+                  <div>illustration</div>
+                  <div>moon</div>
+                  <div>moon</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- right -->
+            <div class="info-avatar-right d-flex flex-column">
+              <div class="timer-wrapper d-flex flex-column">
+                <div class="timer-auction-end">
+                  <div class="title">Auction ends in:</div>
+                  <div class="time d-flex justify-between align-center">
+                    <div>
+                      <h3>59</h3>
+                      <div class="mark">Hours</div>
+                    </div>
+                    <div class="double-points">:</div>
+                    <div>
+                      <h3>59</h3>
+                      <div class="mark">Minutes</div>
+                    </div>
+                    <div class="double-points">:</div>
+                    <div>
+                      <h3>59</h3>
+                      <div class="mark">Seconds</div>
+                    </div>
+                  </div>
+                </div>
+                <button type="button" class="timer-button">Place Bid</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- More Artist Section -->
+      <section class="more-artist">
+        <div class="container">
+          <div class="more-artist-wrapper d-flex justify-between">
+            <h2>More from this artist</h2>
+            <div
+              class="d-flex align-center go-to-artist-page"
+              data-href="/artist.html"
+            >
+              <img
+                src="./assets/img/nft-page/arrow-right-icon.png"
+                alt="Arrow Right Icon"
+              />
+              <span>Go To Artist Page</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- More Artist Cards Section -->
+      <section class="more-artist-cards">
+        <div class="container">
+          <div
+            class="more-artist-cards-wrapper d-flex flex-wrap align-center justify-between"
+          >
+            <!-- First -->
+            <article class="artist-card d-flex align-center flex-column">
+              <img
+                src="./assets/img/nft-page/foxy-life-image.png"
+                alt="Foxy Life Image"
+              />
+              <div class="card-info d-flex flex-column">
+                <h3>Foxy Life</h3>
+                <div class="artist-card-small-icon d-flex">
+                  <img
+                    src="./assets/img/nft-page/orbitian-avatar.png"
+                    alt="Artist Cards Small Avatar"
+                  />
+                  <span class="artist-card-small-icon-text">Orbitian</span>
+                </div>
+                <div class="earnings-wrapper d-flex justify-between">
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-start"
+                  >
+                    <span class="total-sales">Price</span>
+                    <span class="creator-earnings">1.63 ETH</span>
+                  </div>
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-end"
+                  >
+                    <span class="total-sales">Highest Bid</span>
+                    <span class="creator-earnings">0.33 wETH</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- Second -->
+            <article class="artist-card d-flex align-center flex-column">
+              <img
+                src="./assets/img/nft-page/cat-from-future-image.png"
+                alt="Cat from future Image"
+              />
+              <div class="card-info d-flex flex-column">
+                <h3>Cat from future</h3>
+                <div class="artist-card-small-icon d-flex">
+                  <img
+                    src="./assets/img/nft-page/orbitian-avatar.png"
+                    alt="Artist Cards Small Avatar"
+                  />
+                  <span class="artist-card-small-icon-text">Orbitian</span>
+                </div>
+                <div class="earnings-wrapper d-flex justify-between">
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-start"
+                  >
+                    <span class="total-sales">Price</span>
+                    <span class="creator-earnings">1.63 ETH</span>
+                  </div>
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-end"
+                  >
+                    <span class="total-sales">Highest Bid</span>
+                    <span class="creator-earnings">0.33 wETH</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- three -->
+            <article class="artist-card d-flex align-center flex-column">
+              <img
+                src="./assets/img/nft-page/psycho-dog-image.png"
+                alt="Psycho Dog Image"
+              />
+              <div class="card-info d-flex flex-column">
+                <h3>Psycho Dog</h3>
+                <div class="artist-card-small-icon d-flex">
+                  <img
+                    src="./assets/img/nft-page/orbitian-avatar.png"
+                    alt="Artist Cards Small Avatar"
+                  />
+                  <span class="artist-card-small-icon-text">Orbitian</span>
+                </div>
+                <div class="earnings-wrapper d-flex justify-between">
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-start"
+                  >
+                    <span class="total-sales">Price</span>
+                    <span class="creator-earnings">1.63 ETH</span>
+                  </div>
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-end"
+                  >
+                    <span class="total-sales">Highest Bid</span>
+                    <span class="creator-earnings">0.33 wETH</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- four -->
+            <article class="artist-card d-flex align-center flex-column">
+              <img
+                src="./assets/img/nft-page/designer-bear-image.png"
+                alt="Designer Bear Image"
+              />
+              <div class="card-info d-flex flex-column">
+                <h3>Designer Bear</h3>
+                <div class="artist-card-small-icon d-flex">
+                  <img
+                    src="./assets/img/nft-page/orbitian-avatar.png"
+                    alt="Artist Cards Small Avatar"
+                  />
+                  <span class="artist-card-small-icon-text">Orbitian</span>
+                </div>
+                <div class="earnings-wrapper d-flex justify-between">
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-start"
+                  >
+                    <span class="total-sales">Price</span>
+                    <span class="creator-earnings">1.63 ETH</span>
+                  </div>
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-end"
+                  >
+                    <span class="total-sales">Highest Bid</span>
+                    <span class="creator-earnings">0.33 wETH</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- five -->
+            <article class="artist-card d-flex align-center flex-column">
+              <img
+                src="./assets/img/nft-page/dancing-robot-0375-image.png"
+                alt="Dancing Robot 0375 Image"
+              />
+              <div class="card-info d-flex flex-column">
+                <h3>Dancing Robot 0375</h3>
+                <div class="artist-card-small-icon d-flex">
+                  <img
+                    src="./assets/img/nft-page/orbitian-avatar.png"
+                    alt="Artist Cards Small Avatar"
+                  />
+                  <span class="artist-card-small-icon-text">Orbitian</span>
+                </div>
+                <div class="earnings-wrapper d-flex justify-between">
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-start"
+                  >
+                    <span class="total-sales">Price</span>
+                    <span class="creator-earnings">1.63 ETH</span>
+                  </div>
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-end"
+                  >
+                    <span class="total-sales">Highest Bid</span>
+                    <span class="creator-earnings">0.33 wETH</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- six -->
+            <article class="artist-card d-flex align-center flex-column">
+              <img
+                src="./assets/img/nft-page/dancing-robot-0356-image.png"
+                alt="Dancing Robot 0356 Image"
+              />
+              <div class="card-info d-flex flex-column">
+                <h3>Dancing Robot 0356</h3>
+                <div class="artist-card-small-icon d-flex">
+                  <img
+                    src="./assets/img/nft-page/orbitian-avatar.png"
+                    alt="Artist Cards Small Avatar"
+                  />
+                  <span class="artist-card-small-icon-text">Orbitian</span>
+                </div>
+                <div class="earnings-wrapper d-flex justify-between">
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-start"
+                  >
+                    <span class="total-sales">Price</span>
+                    <span class="creator-earnings">1.63 ETH</span>
+                  </div>
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-end"
+                  >
+                    <span class="total-sales">Highest Bid</span>
+                    <span class="creator-earnings">0.33 wETH</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- seven -->
+            <article class="artist-card d-flex align-center flex-column">
+              <img
+                src="./assets/img/nft-page/dancing-robot-0321-image.png"
+                alt="Dancing Robot 0321 Image"
+              />
+              <div class="card-info d-flex flex-column">
+                <h3>Dancing Robot 0321</h3>
+                <div class="artist-card-small-icon d-flex">
+                  <img
+                    src="./assets/img/nft-page/orbitian-avatar.png"
+                    alt="Artist Cards Small Avatar"
+                  />
+                  <span class="artist-card-small-icon-text">Orbitian</span>
+                </div>
+                <div class="earnings-wrapper d-flex justify-between">
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-start"
+                  >
+                    <span class="total-sales">Price</span>
+                    <span class="creator-earnings">1.63 ETH</span>
+                  </div>
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-end"
+                  >
+                    <span class="total-sales">Highest Bid</span>
+                    <span class="creator-earnings">0.33 wETH</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- eight -->
+            <article class="artist-card d-flex align-center flex-column">
+              <img
+                src="./assets/img/nft-page/dancing-robot-0512-image.png"
+                alt="Dancing Robot 0512 Image"
+              />
+              <div class="card-info d-flex flex-column">
+                <h3>Dancing Robot 0512</h3>
+                <div class="artist-card-small-icon d-flex">
+                  <img
+                    src="./assets/img/nft-page/orbitian-avatar.png"
+                    alt="Artist Cards Small Avatar"
+                  />
+                  <span class="artist-card-small-icon-text">Orbitian</span>
+                </div>
+                <div class="earnings-wrapper d-flex justify-between">
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-start"
+                  >
+                    <span class="total-sales">Price</span>
+                    <span class="creator-earnings">1.63 ETH</span>
+                  </div>
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-end"
+                  >
+                    <span class="total-sales">Highest Bid</span>
+                    <span class="creator-earnings">0.33 wETH</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <!-- nine -->
+            <article class="artist-card d-flex align-center flex-column">
+              <img
+                src="./assets/img/nft-page/dancing-robot-0024-image.png"
+                alt="Dancing Robot 0024 Image"
+              />
+              <div class="card-info d-flex flex-column">
+                <h3>Dancing Robot 0024</h3>
+                <div class="artist-card-small-icon d-flex">
+                  <img
+                    src="./assets/img/nft-page/orbitian-avatar.png"
+                    alt="Artist Cards Small Avatar"
+                  />
+                  <span class="artist-card-small-icon-text">Orbitian</span>
+                </div>
+                <div class="earnings-wrapper d-flex justify-between">
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-start"
+                  >
+                    <span class="total-sales">Price</span>
+                    <span class="creator-earnings">1.63 ETH</span>
+                  </div>
+                  <div
+                    class="earnings flex-column d-flex justify-between align-center align-flex-end"
+                  >
+                    <span class="total-sales">Highest Bid</span>
+                    <span class="creator-earnings">0.33 wETH</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- End Main Content -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-top-content d-flex flex-wrap">
+            <!-- footer top content first div -->
+            <div class="footer-top-content-first d-flex flex-column">
+              <div
+                class="footer-top-content-first-storefront d-flex align-center"
+              >
+                <img
+                  src="./assets/img/footer/footer-storefront.png"
+                  alt="storefront"
+                />
+                <span>NFT Marketplace</span>
+              </div>
+              <div class="d-flex flex-column">
+                <div class="footer-top-content-first-centre-text">
+                  <span>NFT marketplace UI created with Anima for Figma.</span>
+                </div>
+                <div class="social-networks-wrapper d-flex flex-column">
+                  <span>Join our community</span>
+                  <div class="social-networks d-flex align-center">
+                    <img
+                      src="./assets/img/footer/DiscordLogo.png"
+                      alt="Discord"
+                    />
+                    <img
+                      src="./assets/img/footer/YoutubeLogo.png"
+                      alt="Youtube"
+                    />
+                    <img
+                      src="./assets/img/footer/TwitterLogo.png"
+                      alt="twitter"
+                    />
+                    <img
+                      src="./assets/img/footer/InstagramLogo.png"
+                      alt="Instagram"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End footer top content first div -->
+
+            <!-- footer top content second div -->
+            <div class="footer-top-content-second d-flex flex-column">
+              <h3>Explore</h3>
+              <div class="d-flex flex-column">
+                <a href="./marketplace.html">Marketplace</a>
+                <a href="./ranking.html">Rankings</a>
+                <a href="./connect-wallet.html">Connect a wallet</a>
+              </div>
+            </div>
+            <!-- End footer top content second div -->
+
+            <!-- footer top content third div -->
+            <div class="footer-top-content-third d-flex flex-column">
+              <h3>Join our weekly digest</h3>
+              <span>
+                Get exclusive promotions & updates straight to your inbox.
+              </span>
+              <div class="footer-subscription">
+                <input
+                  type="text"
+                  title="subscription input"
+                  placeholder="Enter your email here"
+                />
+                <button type="button" class="d-flex align-center">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+            <!-- End footer top content third div -->
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>Ⓒ NFT Market. Use this template freely.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- scripts -->
+    <script>
+      document
+        .querySelectorAll(".go-to-artist-page")
+        .forEach(
+          (row) => (row.onclick = () => (location.href = row.dataset.href)),
+        );
+    </script>
+  </body>
+</html>
